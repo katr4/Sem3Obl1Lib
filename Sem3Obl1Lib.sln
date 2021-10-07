@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sem3Obl1Lib", "Sem3Obl1Lib\Sem3Obl1Lib.csproj", "{AFCE0435-7239-4F7C-9EF0-7016D896254C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibTest", "LibTest\LibTest.csproj", "{0850BFF2-1E23-405B-89B4-A67298F99D38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obl1REST", "Obl1REST\Obl1REST.csproj", "{C8A3449B-0EC0-4C85-9249-9CA4968D7928}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFCE0435-7239-4F7C-9EF0-7016D896254C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFCE0435-7239-4F7C-9EF0-7016D896254C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFCE0435-7239-4F7C-9EF0-7016D896254C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFCE0435-7239-4F7C-9EF0-7016D896254C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0850BFF2-1E23-405B-89B4-A67298F99D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0850BFF2-1E23-405B-89B4-A67298F99D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0850BFF2-1E23-405B-89B4-A67298F99D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0850BFF2-1E23-405B-89B4-A67298F99D38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8A3449B-0EC0-4C85-9249-9CA4968D7928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8A3449B-0EC0-4C85-9249-9CA4968D7928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8A3449B-0EC0-4C85-9249-9CA4968D7928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8A3449B-0EC0-4C85-9249-9CA4968D7928}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {292A5654-34DB-4FB5-9570-AEE61929A9F2}
+	EndGlobalSection
+EndGlobal
