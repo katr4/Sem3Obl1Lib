@@ -83,6 +83,24 @@ namespace Obl5TCP
                     }
                     
                 }
+                else if (line1 == "Save")
+                {
+                    Console.WriteLine("Received string " + line1);
+                    string line2 = sr.ReadLine();
+                    while(string.IsNullOrWhiteSpace(line2))
+                    {
+                        sw.WriteLine("Item needed");
+                        line2 = sr.ReadLine();
+                    }
+                    Console.WriteLine("Received string " + line2);
+
+                    FootballPlayer player = JsonSerializer.Deserialize<FootballPlayer>(line2);
+                    Objects.Add(player);
+
+                    Console.WriteLine("Received player " + JsonSerializer.Serialize(player));
+
+                    //{"Id":6, "Name":"Callum", "Price":100, "ShirtNumber":57}
+                }
                 else {
                     sw.WriteLine("Input not accepted. Use 'GetAll' or 'Get'");
                 }
